@@ -1,0 +1,76 @@
+﻿
+
+<nav class="navbar navbar-default bg-primary navbar-dark ">
+    
+    <h3>MonthEndManagement</h3> 
+</nav>
+@*@Html.Partial("MonthPartial")*@
+<div class="container">
+    
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav row col-md-10">
+            <li class="nav-item active col-md-3">
+                <a href='@Url.Action("Earned", "HomePage")'>
+                    Earned
+                </a>
+            </li>
+            <li class="nav-item col-md-3">
+                <a class="nav-link" href="#">Deductible</a>
+            </li>
+            <li class="nav-item col-md-3">
+                <a class="nav-link" href="#">Commission</a>
+            </li>
+
+        </ul>
+    </nav>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Insured Name</th>
+                    <th>Claimt name</th>
+                    <th>ETT date</th>
+                    <th>Acc Date</th>
+                    <th>Claim No</th>
+                    <th>State</th>
+                    <th>Type</th>
+                    <th>Ded met</th>
+                    <th>Ded Amt</th>
+                    <th>Ded Due</th>
+                    <th>Claim paid</th>
+                    <th>Prev month</th>
+                    <th>current month</th>
+                    <th>Payment collected</th>
+                    <th>int loss paid</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Anna</td>
+                    <td>Pitt</td>
+                    <td>35</td>
+                    <td>New York</td>
+                    <td>USA</td>
+                    <td>Female</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
